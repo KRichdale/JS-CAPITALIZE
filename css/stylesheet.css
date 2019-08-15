@@ -1,0 +1,26 @@
+*
+{
+box-sizing:border-box
+}
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+  display: grid;
+  height: 100vh;
+  place-content: center center;
+  text-align: center;
+}
+
+button {
+    font-size: 50px;
+    padding: 25px;
+    color: black;
+background-color: #dedede;
+border:5px solid black;
+}
+button:hover{
+    color: white;
+    background-color: #333;
+    border:5px solid black;
+}
